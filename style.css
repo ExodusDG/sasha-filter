@@ -1,0 +1,236 @@
+body {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background: #f3dcf8 !important;
+}
+
+.gradient-text {
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #de6489;
+}
+
+.filter__gender_choise>p {
+    cursor: pointer;
+}
+
+.filter {
+    width: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    -webkit-box-shadow: 0px 0px 27px 0px rgba(34, 60, 80, 0.18);
+    -moz-box-shadow: 0px 0px 27px 0px rgba(34, 60, 80, 0.18);
+    box-shadow: 0px 0px 27px 0px rgba(34, 60, 80, 0.18);
+}
+
+.filter__container {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.filter__heder {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    left: 10px;
+    position: relative;
+}
+
+.filter__header_close {
+    font-weight: 300;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.filter__header_close {
+    left: 90px;
+    position: relative;
+}
+
+.filter__gender>p {
+    text-align: center;
+}
+
+.filter__gender_choise {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__gender {
+    margin-top: 15px;
+}
+
+.filter__age {
+    margin-top: 10px;
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #b0b0b0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider1:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 4px;
+    background: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider1 {
+    background: #b870c7;
+}
+
+input:focus+.slider1 {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider1:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+}
+
+.filter__tumblers>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Rounded sliders */
+
+.slider1.round {
+    border-radius: 34px;
+}
+
+.slider1.round:before {
+    border-radius: 50%;
+}
+
+.filter__tumblers>div>p {
+    margin-top: 5px;
+    color: #b0b0b0;
+}
+
+.filter__apply {
+    width: 100%;
+    border: none;
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.ui-widget.ui-widget-content {
+    border: 0px solid #c5c5c5;
+}
+
+.ui-widget-content {
+    background: #b0b0b0;
+}
+
+.ui-slider-horizontal {
+    height: 2px;
+}
+
+.ui-widget-header {
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.5em;
+    margin-left: -.6em;
+    border-radius: 40px;
+    border: none !important;
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+    outline: none;
+}
+
+#amount {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.filter__age>p {
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.filter__distance {
+    margin-top: 20px;
+}
+
+.filter__distance>p {
+    text-align: center;
+    color: #b0b0b0;
+}
+
+#amount2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(0deg, #b870c7, #d2689c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.filter__tumblers {
+    margin-top: 25px;
+}
+
+.filter__gender>p {
+    text-align: center;
+    color: #b0b0b0;
+}

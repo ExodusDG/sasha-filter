@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="filter">
+        <div class="filter__heder">
+            <p class="filter__header_title">Filters</p>
+            <p class="filter__header_close">close</p>
+        </div>
+        <div class="filter__container">
+            <div class="filter__gender">
+                <p>Interested in</p>
+                <div class="filter__gender_choise">
+                    <p>Men</p>
+                    <p class="gradient-text">Women</p>
+                    <p>Both</p>
+                </div>
+            </div>
+            <div class="filter__age">
+                <p>Age</p>
+                <div class="filter__age_range">
+
+                    <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+
+                    <div id="slider-range"></div>
+
+                </div>
+            </div>
+            <div class="filter__distance">
+                <p>Distance</p>
+                <div class="filter__age_range">
+
+                    <input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;">
+
+                    <div id="slider-range_2"></div>
+
+                </div>
+            </div>
+            <div class="filter__tumblers">
+                <div>
+                    <p>Has photos</p>
+                    <div class="filter__tumblers_switch">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider1 round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <p>Married</p>
+                    <div class="filter__tumblers_switch">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider1 round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <p>Single</p>
+                    <div class="filter__tumblers_switch">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider1 round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button class="filter__apply">Apply</button>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="main.js"></script>
+
+</html>
